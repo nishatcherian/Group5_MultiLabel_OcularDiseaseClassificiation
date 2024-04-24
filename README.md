@@ -13,14 +13,19 @@ This repository contains files related to the collaborative project on Ocular Di
 
 ### Files
 ResNet_Multilabel.ipynb - This file contains the implementation of ResNet for classifying ocular diseases based on fundus image dataset.
+
 VGGNet_Multilabel.ipynb - This file contains the implementation of VGGNet for classifying ocular diseases based on fundus image dataset.
+
 Inception_v3.ipynb - This file contains the implementation of InceptionNet for classifying ocular diseases based on fundus image dataset.
+
 DenseNet-121.ipynb - This file contains the implementation of DenseNet for classifying ocular diseases based on fundus image dataset.
+
 Ocular_Disease_Model_Comparison.ipynb - This file is a integration of all the models mentioned above and comparison of all their results.
 
 ### Requirements :
 1.Before running the code, you'll need to install several libraries:
   Install Torch, NumPy, Pandas, Torchvision, TensorFlow, scikit-learn, scikit-image, imageio, Seaborn, Pillow, glob, shutil, and   Matplotlib.
+
 2.Please update the dataset path in the code before execution to ensure correct file retrieval.
 
 ### How to Run:
@@ -85,6 +90,9 @@ Ranga Rohit Nallamolu:
 
 ### Contributors
 Ranga Rohit Nallamolu
+
 Prathyusha Reddy Nandikonda
+
 Nisha Thankam cherian
+
 Aishwarya More
