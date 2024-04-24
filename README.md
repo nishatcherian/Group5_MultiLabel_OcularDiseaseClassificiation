@@ -1,30 +1,32 @@
 # Group5_OcularDiseaseClassification
 
 ## Overview
-This repository contains files related to the collaborative project on Ocular Diseases classification. The project involves contributions from 4 contributors: Ranga Rohit Nallamolu, Prathyusha Reddy Nandikonda, Nisha Thankam cherian, and Aishwarya More.
+This repository contains files related to the collaborative project on Ocular Diseases classification. The project involves contributions from 4 contributors: Ranga Rohit Nallamolu, Prathyusha Reddy Nandikonda, Nisha Thankam Cherian and Aishwarya More.
 
 ### Dataset Link
  https://studentuml-my.sharepoint.com/:f:/g/personal/nishathankam_cherian_student_uml_edu/EmLbJviOed1KqmFiPc2g8I4BkGKK0lzLCjkI92d3VSc3fA?e=6gBAb9
 
  This sharepoint link contains full_df.csv which is the metadata and folder preprocessed_images.
  Images from preprocessed_images folder was split to be used for model training and testing.
- The dataset source is Kaggle [https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k/data]
- The input image is classified into classes which are : Normal, Diabetes, Glaucoma, Cataract, Age-related Macular Degeneration, Hypertension, Pathological Myopia, and Other diseases/abnormalities
+ The dataset source is Kaggle [https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k/data].
+ The input image is classified into classes which are : Normal, Diabetes, Glaucoma, Cataract, Age-related Macular Degeneration, Hypertension, Pathological Myopia and Other diseases/abnormalities.
 
-### Files
-ResNet_Multilabel.ipynb - This file contains the implementation of ResNet for classifying ocular diseases based on fundus image dataset.
+### Github Files
+For classifying ocular diseases based on fundus image dataset, below files have the model implementation.
 
-VGGNet_Multilabel.ipynb - This file contains the implementation of VGGNet for classifying ocular diseases based on fundus image dataset.
+ResNet_Multilabel.ipynb - This file contains the implementation of ResNet. 
 
-Inception_v3.ipynb - This file contains the implementation of InceptionNet for classifying ocular diseases based on fundus image dataset.
+VGGNet_Multilabel.ipynb - This file contains the implementation of VGGNet.
 
-DenseNet-121.ipynb - This file contains the implementation of DenseNet for classifying ocular diseases based on fundus image dataset.
+Inception_v3.ipynb - This file contains the implementation of InceptionNet.
+
+DenseNet-121.ipynb - This file contains the implementation of DenseNet.
 
 Ocular_Disease_Model_Comparison.ipynb - This file is a integration of all the models mentioned above and comparison of all their results.
 
 ### Requirements :
 1.Before running the code, you'll need to install several libraries:
-  Install Torch, NumPy, Pandas, Torchvision, TensorFlow, scikit-learn, scikit-image, imageio, Seaborn, Pillow, glob, shutil, and   Matplotlib.
+  Install Torch, NumPy, Pandas, Torchvision, TensorFlow, scikit-learn, scikit-image, imageio, Seaborn, Pillow, glob, shutil and Matplotlib.
 
 2.Please update the dataset path in the code before execution to ensure correct file retrieval.
 
@@ -93,6 +95,6 @@ Ranga Rohit Nallamolu
 
 Prathyusha Reddy Nandikonda
 
-Nisha Thankam cherian
+Nisha Thankam Cherian
 
 Aishwarya More
